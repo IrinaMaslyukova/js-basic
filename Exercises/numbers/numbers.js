@@ -13,25 +13,24 @@
 }
 
 //2.Implement function extractNumbers which will leave only numbers in passed string.
-let num = '123rr';
-
-function extractNumbers(num) {
-  return parseInt(num);
+let number = '123jj';
+function extractNumbers(number) {
+  return parseFloat(number);
 }
-
-console.log(extractNumbers(num));
+console.log(extractNumbers(number));
 
 //3.Declare a variable with decimal value and convert to binary, octal and hexadecimal.
-let num = new Number(10);
+const num = new Number(10);
 let str_1 = num.toString(2);
-console.log(parseInt(str_1, 2));
+console.log(str_1);
 let str_2 = num.toString(8);
-console.log(parseInt(str_2, 8));
+console.log(str_2);
 let str_3 = num.toString(16);
-console.log(parseInt(str_2, 16));
+console.log(str_3);
 
 //4. use Math.random to generate random value from 0 to 100.
-let a = Math.round(Math.random());
-for (a; a < 101; a++) {
-  console.log(a);
-}
+const min = 1
+const max = 100
+let random = Math.floor(Math.random() * (max-min) + min)
+console.log(random);
+
