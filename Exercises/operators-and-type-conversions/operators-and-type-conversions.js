@@ -14,3 +14,4 @@ console.log(`log ${counter++}`);
 console.log(`log ${counter++}`);
 console.log(`log ${counter++}`);
 console.log(`log ${counter++}`);
+
