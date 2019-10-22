@@ -9,3 +9,8 @@ let numEl = parseInt(str.match(/\d+/));
 console.log(numEl/12);
 
 // 3. Declare variable which will contain logs counter. Log few times with updating this value accordingly.
+let counter = 1;
+console.log(`log ${counter++}`);
+console.log(`log ${counter++}`);
+console.log(`log ${counter++}`);
+console.log(`log ${counter++}`);
